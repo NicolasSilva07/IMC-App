@@ -47,7 +47,11 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+<<<<<<< HEAD
         android:layout_marginTop="40dp"
+=======
+        android:layout_marginTop="4dp"
+>>>>>>> 12a7841 (APP IMC)
         android:layout_marginEnd="8dp"
         android:ems="10"
         android:hint="Informe a sua altura"
@@ -55,6 +59,10 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
+=======
+        app:layout_constraintHorizontal_bias="0.0"
+>>>>>>> 12a7841 (APP IMC)
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editPeso" />
 
@@ -62,7 +70,11 @@
         android:id="@+id/textResultado"
         android:layout_width="317dp"
         android:layout_height="80dp"
+<<<<<<< HEAD
         android:layout_marginTop="8dp"
+=======
+        android:layout_marginTop="88dp"
+>>>>>>> 12a7841 (APP IMC)
         android:text="RESULTADO"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -77,9 +89,15 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="8dp"
+<<<<<<< HEAD
         android:onClick="calcular"
         android:text="CALCULAR"
         android:background="@drawable/background_button"
+=======
+        android:background="@drawable/background_button"
+        android:onClick="calcular"
+        android:text="CALCULAR"
+>>>>>>> 12a7841 (APP IMC)
         android:textColor="@color/white"
         android:textColorHint="#BC1414"
         android:textSize="16sp"
@@ -98,6 +116,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+<<<<<<< HEAD
         android:onClick="reiniciarApp"
         android:text="REINICIAR"
         android:background="@drawable/background_button2"
@@ -107,4 +126,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
+=======
+        android:background="@drawable/background_button2"
+        android:onClick="reiniciarApp"
+        android:text="REINICIAR"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="Informe o seu nome"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editAltura" />
+
+>>>>>>> 12a7841 (APP IMC)
 </androidx.constraintlayout.widget.ConstraintLayout>
